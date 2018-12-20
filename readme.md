@@ -1,11 +1,9 @@
 # Обрезка ссылок с помощью Битли
 
-This Bitly url shorterer can creating short bitlinks from long urls and can recognising 
-bitlinks-clicks statistics.
-It is possible to use this code only if we have Valid Token from https://bitly.com/
-
 Этот код может создавать короткие битли-ссылки из длинных URL и может выводить статистику по кликам битли-ссылок.
+
 Этот код можно использовать только случае, если у вас есть Valid Token с https://bitly.com/
+
 Как получить Valid Token можно узнать тут: https://support.bitly.com/hc/en-us/articles/230647907-How-do-I-find-my-OAuth-access-token-
 
 ### Как установить

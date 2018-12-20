@@ -4,16 +4,18 @@ This Bitly url shorterer can creating short bitlinks from long urls and can reco
 bitlinks-clicks statistics.
 It is possible to use this code only if we have Valid Token from https://bitly.com/
 
+Этот код может создавать короткие битли-ссылки из длинных URL и может выводить статистику по кликам битли-ссылок.
+Этот код можно использовать только случае, если у вас есть Valid Token с https://bitly.com/
+Как получить Valid Token можно узнать тут: https://support.bitly.com/hc/en-us/articles/230647907-How-do-I-find-my-OAuth-access-token-
+
 ### Как установить
-Get your Valid Token from https://dev.bitly.com/get_started.html
+Скачиваем файлы в отдельную папку.
 
-Create .env file where main.py is located.
-
-Your .env file should be this string:
+В этой же папке создаем .env файл.
+Ваш .env должен содержать строку:
 ```
-TOKEN=**your token**
+TOKEN=**ваш Valid Token**
 ```
-
 
 Python3 должен быть уже установлен. 
 Затем используйте `pip` (или `pip3`, есть конфликт с Python2) для установки зависимостей:
@@ -21,17 +23,18 @@ Python3 должен быть уже установлен.
 pip install -r requirements.txt
 ```
 ### Usage
+Используем консольный ввод.
 
-creating short bitlinks:
-```
->>> $ python3 main.py http://bit.ly/2A8OECy
-Количество переходов по ссылке битли: 14
-```
-
-recognising bitlinks-clicks statistics:
+1. Создать короткую ссылку битли:
 ```
 >>> $ python3 main.py https://link.com/
 http://bit.ly/2A8OECy
+```
+
+2. Вывести количество переходов по кликам по битли-ссылке:
+```
+>>> $ python3 main.py http://bit.ly/2A8OECy
+Количество переходов по ссылке битли: 14
 ```
 
 ### Цель проекта

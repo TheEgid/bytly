@@ -58,4 +58,3 @@ if __name__ == '__main__':
         raise ValueError('link is incorrect!')
     else:
         print(bitly_cooperation)
-

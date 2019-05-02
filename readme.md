@@ -25,14 +25,14 @@ pip install -r requirements.txt
 
 1. Создать короткую ссылку битли:
 ```
-**python3 main.py https://link.com/**
+python3 main.py https://link.com/
 
 http://bit.ly/2A8OECy
 ```
 
 2. Вывести количество переходов по кликам по битли-ссылке:
 ```
-**python3 main.py http://bit.ly/2A8OECy**
+python3 main.py http://bit.ly/2A8OECy
 
 Количество переходов по ссылке битли: 14
 ```
